@@ -1,1 +1,6 @@
 # BindViewTest
+##这是一个简化控制器代码的demo
+其中通过BINDVIEW宏把view的构建和布局放到一个单独的类中
+通过协议分发器把UITableViewDataSource方法放到一个单独的类中。
+还可以继续按照此思路把UITableViewDelegate的方法实现也分离出去。但是要记得把点击事件回传。
+如果嫌麻烦，还是把UITableViewDelegate 放到控制器中好一点。
